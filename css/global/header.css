@@ -1,6 +1,8 @@
 header {
   display: flex;
   flex-direction: column;
+
+  color: #fff;
 }
 
 .header-info-bg {
@@ -42,15 +44,37 @@ header {
 
 .header-menu ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .header-menu li {
+  flex: 1;
+
   font-size: 1.25rem;
+  text-align: center;
+
   padding: 10px;
 }
 
 .header-menu li a:hover {
   color: #122ab2;
   transition: color 150ms ease-in-out;
+}
+
+@media (max-width: 550px) {
+  .header-menu {
+    flex-direction: column;
+  }
+
+  .header-info {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .header-info p,
+  .header-info a {
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
 }

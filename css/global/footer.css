@@ -15,3 +15,9 @@ footer p {
 
   color: #122ab2;
 }
+
+@media (max-width: 700px) {
+  footer p {
+    font-size: 1.5rem;
+  }
+}

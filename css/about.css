@@ -25,6 +25,7 @@ body > h1 {
 
 .about-info {
   flex: 2 1 300px;
+  margin-inline: 10px;
 }
 
 .about-info h2 {

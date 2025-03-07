@@ -101,3 +101,21 @@
 
   transition: 150ms ease-in-out;
 }
+
+@media (max-width: 660px) {
+  .plan {
+    padding: 20px;
+  }
+
+  .cobre {
+    order: 3;
+  }
+
+  .prata {
+    order: 2;
+  }
+
+  .ouro {
+    order: 1;
+  }
+}
