@@ -1,0 +1,19 @@
+/* Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* About */
+@import "./about.css";
+
+/* Products */
+@import "./products.css";
+
+/* Plans */
+@import "./plans.css";
+
+/* Qualitys */
+@import "./qualitys.css";
+
+/* Newsletter */
+@import "./newsletter.css";
